@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>77725287147-uiiak9isdihm78k43msbdo2jh505o6si.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.77725287147-uiiak9isdihm78k43msbdo2jh505o6si</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALgWW5LVJWGegGRxOL6b__BBajnd1HBwM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77725287147</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.giziGenius</string>
+	<key>PROJECT_ID</key>
+	<string>gizigenuis</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gizigenuis.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77725287147:ios:bf9da986a4eab8a10634ae</string>
+</dict>
+</plist>

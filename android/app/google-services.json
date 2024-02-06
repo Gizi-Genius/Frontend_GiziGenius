@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77725287147",
+    "project_id": "gizigenuis",
+    "storage_bucket": "gizigenuis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77725287147:android:6ec1270ec5638d310634ae",
+        "android_client_info": {
+          "package_name": "com.example.gizi_genius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77725287147-g0d0m56lj03p94msioshkaoesltfq0gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM8tgNZMVJJHLBtlBd8OGqcoObkI3gni8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77725287147-g0d0m56lj03p94msioshkaoesltfq0gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
