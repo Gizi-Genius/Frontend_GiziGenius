@@ -1,7 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:gizi_genius/fade_animaton.dart';
-import 'package:gizi_genius/view/home.dart';
+import 'package:gizi_genius/animation/up.dart';
+import 'package:gizi_genius/view/home_page.dart';
+import 'package:gizi_genius/view/opening_page.dart';
 import 'package:gizi_genius/view/register_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:icons_plus/icons_plus.dart';
@@ -205,7 +206,13 @@ class _LoginPageState extends State<LoginPage> {
                 FadeInAnimation(
                   delay: 4,
                   child: InkWell(
-                    onTap: _login,
+                    // onTap: _login,
+                    onTap: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(builder: (context) => OpeningPage()),
+                      );
+                    },
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 56),
                       padding: EdgeInsets.symmetric(vertical: 16),
