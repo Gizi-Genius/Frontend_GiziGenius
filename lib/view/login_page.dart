@@ -205,7 +205,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(height: 40),
                 FadeInAnimation(
                   delay: 4,
-                  child: InkWell(
+                  child: GestureDetector(
                     // onTap: _login,
                     onTap: () {
                       Navigator.pushReplacement(

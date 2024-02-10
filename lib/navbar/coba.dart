@@ -20,6 +20,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print("Rebuild");
+
     return Scaffold(
       backgroundColor: Color(0xff001F3F),
       body: _pages[_selectedItemPosition],
@@ -50,22 +52,6 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Profile',
           ),
         ],
-      ),
-    );
-  }
-}
-
-class Page extends StatelessWidget {
-  final String title;
-
-  const Page({Key? key, required this.title}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        title,
-        style: TextStyle(fontSize: 24.0),
       ),
     );
   }

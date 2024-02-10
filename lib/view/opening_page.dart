@@ -37,7 +37,7 @@ class OpeningPage extends StatelessWidget {
             SizedBox(height: 80),
             FadeInAnimation(
               delay: 2,
-              child: InkWell(
+              child: GestureDetector(
                 // onTap: _register,
                 onTap: () {
                   Navigator.pushReplacement(
